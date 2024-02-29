@@ -23,6 +23,6 @@ Explore the Pokedex live at [https://afmirez.github.io/pokedex-angular-app-v1.0/
 
 ## Feedback and Issues 🤝
 
-Found a bug or have a suggestion? Feel free to [open an issue](https://github.com/your-username/pokedex-explorer/issues). We welcome your feedback!
+Found a bug or have a suggestion? Feel free to [open an issue](https://github.com/afmirez/pokedex-angular-app-v1.0/issues). We welcome your feedback!
 
 Happy Pokémon exploring! 🌟
