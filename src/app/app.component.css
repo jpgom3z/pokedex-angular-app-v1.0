@@ -1,0 +1,29 @@
+header {
+    padding-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-gray);
+    box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);;
+    margin-bottom: 2rem;
+}
+
+header nav {
+    width: 100rem;
+}
+.logo-container {
+    padding-left: 2rem;
+    pointer-events: none;
+    user-select: none
+}
+
+.logo-container img {
+    width: 10rem;
+    height: 3.6rem;
+}
+
+@media screen and (max-width: 1200px) {
+    header nav {
+        width: 95%;
+        /* background-color: red; */
+    }
+}

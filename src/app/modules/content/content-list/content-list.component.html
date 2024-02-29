@@ -1,0 +1,25 @@
+<main>
+  <div class="cards-container">
+    <div *ngFor="let pokemon of filteredPokemons" class="card">
+      <p class="back-card-id">#{{ formatPokemonId(pokemon.id) }}</p>
+      <div class="card-header">
+        <div class="card-header-image">
+          <img [src]="pokemon.sprites.other['official-artwork'].front_default" alt="">
+        </div>
+      </div>
+      <div class="card-main">
+        <div class="card-name">
+          <span class="btn data-btn pokemon-id">#{{ formatPokemonId(pokemon.id) }}</span>
+          <h2 class="pokemon-name">{{ pokemon.name }}</h2>
+        </div>
+        <div class="card-type">
+          <span *ngFor="let type of pokemon.types" class="btn data-btn {{ type.type.name.toLowerCase() }}">{{ type.type.name }}</span>
+        </div>
+        <div class="card-stats">
+          <span class="btn data-btn stat">{{ pokemon.height }}M</span>
+          <span class="btn data-btn stat">{{ pokemon.weight }}KG</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>

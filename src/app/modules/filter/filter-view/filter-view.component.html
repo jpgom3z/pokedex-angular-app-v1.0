@@ -1,0 +1,10 @@
+<section class="filter-container">
+  <ul>
+    <li>
+      <button type="button" class="btn filter-btn" (click)="filterPokemons('todos')">Ver Todos</button>
+    </li>
+    <li *ngFor="let poketype of filterTypes">
+      <button type="button" class="btn filter-btn {{ poketype }}" (click)="filterPokemons(poketype)"  >{{ poketype.toUpperCase() }}</button>
+    </li>
+  </ul>
+</section>

@@ -1,0 +1,12 @@
+.filter-container {
+    overflow: hidden; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    gap: 0.8rem;    
+    padding: 2rem;
+}
